@@ -8,7 +8,8 @@ import Projects from "./components/Projects";
 const App = () => (
   <ReactFullpage
     //fullpage options
-    sectionsColor={["rgb(255, 95, 69)", 'rgb(7, 152, 236)']}
+    continuousVertical={"true"}
+    sectionsColor={["rgb(255, 95, 69)", "rgb(7, 152, 236)"]}
     licenseKey={"YOUR_KEY_HERE"}
     scrollingSpeed={1000} /* Options here */
     render={({ state, fullpageApi }) => {
@@ -16,17 +17,23 @@ const App = () => (
         <ReactFullpage.Wrapper>
           <div className="section">
             <div class="slide" data-anchor="slide1">
-              <MainPage />
-              <button onClick={() => fullpageApi.moveSectionDown()}>
-                Click me to move down
-              </button>
+              <div className="container">
+                <MainPage />
+                <button onClick={() => fullpageApi.moveSectionDown()}>
+                  Contact
+                </button>
+              </div>
             </div>
             <div class="slide" data-anchor="slide2">
-              <Projects />
+              <div className="container">
+                <Projects />
+              </div>
             </div>
           </div>
           <div className="section">
-            <Contact />
+            <div className="container">
+              <Contact />
+            </div>
           </div>
         </ReactFullpage.Wrapper>
       );
