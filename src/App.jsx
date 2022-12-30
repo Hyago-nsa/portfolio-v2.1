@@ -18,23 +18,23 @@ const App = () => (
           <div className="section">
             <div class="slide" data-anchor="slide1">
               <div className="container">
-                <div>
-                  C
-                </div>
+                <div>C</div>
                 <div className="inside-container">
                   <MainPage />
-                  <button
-                    className="m-button"
-                    onClick={() => fullpageApi.moveSectionDown()}
-                  >
-                    About
-                  </button>
-                  <button
-                    className="m-button"
-                    onClick={() => fullpageApi.moveSectionDown()}
-                  >
-                    Contact
-                  </button>
+                  <div className="button-container">
+                    <button
+                      className="m-button"
+                      onClick={() => fullpageApi.moveSectionDown()}
+                    >
+                      About
+                    </button>
+                    <button
+                      className="m-button"
+                      onClick={() => fullpageApi.moveSectionDown()}
+                    >
+                      Contact
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

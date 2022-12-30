@@ -14,7 +14,7 @@ const mainPage = () => {
 
         <div className="sub-text">
           A mix of Design, Front-end Development and professional skill that
-          will make your product stand out
+          will make your product stand out.
         </div>
       </div>
     </Fragment>
