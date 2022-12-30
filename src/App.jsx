@@ -3,7 +3,8 @@ import "./App.css";
 import ReactFullpage from "@fullpage/react-fullpage";
 import MainPage from "./components/mainPage";
 import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
+import About from "./components/About";
 
 const App = () => (
   <ReactFullpage
@@ -24,7 +25,7 @@ const App = () => (
                   <div className="button-container">
                     <button
                       className="m-button"
-                      onClick={() => fullpageApi.moveSectionDown()}
+                      onClick={() => fullpageApi.moveTo(1, 2)}
                     >
                       About
                     </button>
@@ -40,7 +41,14 @@ const App = () => (
             </div>
             <div class="slide" data-anchor="slide2">
               <div className="container">
-                <Projects />
+                <div className="inside-container">
+                  <Portfolio />
+                </div>
+              </div>
+            </div>
+            <div class="slide" data-anchor="slide3">
+              <div className="container">
+                <About />
               </div>
             </div>
           </div>

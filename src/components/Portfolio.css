@@ -1,0 +1,34 @@
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects-container {
+  margin: 15px;
+  background-color: #101010;
+  margin-top: 45px;
+  border-radius: 5px;
+  width: 380px;
+  height: 380px;
+}
+
+.projects-container-big {
+  margin: 15px;
+  background-color: #101010;
+  margin-top: 45px;
+  border-radius: 5px;
+  width: 790px;
+  height: 380px;
+}
+
+.projects-image {
+  border-radius: 5px;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 70%;
+}
+
+.projects-text {
+  color: white;
+  width: 100%;
+}

@@ -5,14 +5,15 @@
   border-bottom: 1px solid #151515;
 
   height: 90vh;
+  max-height: 90vh;
   background-color: #040404;
   /* box-shadow: inset  0 0 999px -200px rgba(255, 255, 255, 0.4); */
 }
 
 .inside-container {
-  width: 80vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  max-width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-container {
@@ -58,7 +59,7 @@
 }
 
 .m-button:hover {
-  box-shadow: 0 0 10px 0 rgba(255, 255, 255, );
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.60);
   border: 1px solid #ff3a5e;
   background-color: white;
   color: #ff3a5e;
