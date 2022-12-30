@@ -7,29 +7,35 @@ const Projects = () => {
       <div className="portfolio-container">
         <div className="projects-container-big">
           <div className="projects-image">IMG</div>
-          <div className="projects-text">TEXT</div>
+          <h1 className="projects-text">Some project name</h1>
+          <h2 className="projects-subtext">Web Development</h2>
         </div>
         <div className="projects-container">
           <div className="projects-image">IMG</div>
-          <div className="projects-text">TEXT</div>
+          <h1 className="projects-text">Some project name</h1>
+          <h2 className="projects-subtext">Web Development</h2>
         </div>
         <div className="projects-container">
           <div className="projects-image">IMG</div>
-          <div className="projects-text">TEXT</div>
+          <h1 className="projects-text">Some project name</h1>
+          <h2 className="projects-subtext">Web Development</h2>
         </div>
       </div>
       <div className="portfolio-container">
         <div className="projects-container">
           <div className="projects-image">IMG</div>
-          <div className="projects-text">TEXT</div>
+          <h1 className="projects-text">Some project name</h1>
+          <h2 className="projects-subtext">Web Development</h2>
         </div>
         <div className="projects-container">
           <div className="projects-image">IMG</div>
-          <div className="projects-text">TEXT</div>
+          <h1 className="projects-text">Some project name</h1>
+          <h2 className="projects-subtext">Web Development</h2>
         </div>
         <div className="projects-container-big">
           <div className="projects-image">IMG</div>
-          <div className="projects-text">TEXT</div>
+          <h1 className="projects-text">Some project name</h1>
+          <h2 className="projects-subtext">Web Development</h2>
         </div>
       </div>
       awdwadwa
