@@ -23,7 +23,7 @@
 }
 
 .fp-arrow {
-  transition: ease-in-out 0.5s;
+  transition: ease 0.2s;
 }
 
 .fp-next {
@@ -35,15 +35,13 @@
 }
 
 .fp-next:hover {
-  height: 50vh;
-  bottom: 0;
-  transition: ease-in-out 1s;
+  border-color: transparent transparent transparent #ff3a5e !important;
+  transition: ease-in-out 0.2s;
 }
 
 .fp-prev:hover {
-  height: 50vh;
-  top: 0;
-  transition: ease-in-out 1s;
+  border-color: transparent #ff3a5e transparent transparent !important;
+  transition: ease-in-out 0.2s;
 }
 
 .m-button {
@@ -59,7 +57,7 @@
 }
 
 .m-button:hover {
-  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.60);
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.6);
   border: 1px solid #ff3a5e;
   background-color: white;
   color: #ff3a5e;
