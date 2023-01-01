@@ -18,7 +18,7 @@
 .project-small {
   display: grid;
   background-color: #151515;
-  width: 380px;
+  width: 378px;
   height: 378px;
   transition: ease 0.1s;
 }
