@@ -30,7 +30,7 @@ const App = () => (
                     </button>
                     <button
                       className="m-button"
-                      onClick={() => fullpageApi.moveSectionUp()}
+                      onClick={() => fullpageApi.moveSectionDown()}
                     >
                       Contact
                     </button>

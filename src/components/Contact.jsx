@@ -19,15 +19,9 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-form">
-        <div className="box-long">
-          <h1>Algo</h1>
-          <h1>Algo</h1>
-          <h1>Algo</h1>
-          <h1>Algo</h1>
-          <h1>Algo</h1>
-        </div>
-        <div className="box-small-blue">AAAAAAAA</div>
-        <div className="box-small-purple">AAAA</div>
+        <div className="box-long"></div>
+        <div className="box-small-blue"></div>
+        <div className="box-small-purple"></div>
       </div>
     </section>
   );
