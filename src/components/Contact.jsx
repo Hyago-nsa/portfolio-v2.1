@@ -19,10 +19,11 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-form">
-        <div className="box-long"></div>
-        <div className="box-small-blue"></div>
-        <div className="box-small-purple"></div>
+        <div className="box-long">awdwadaw</div>
+        <div className="box-small-blue">awdwada</div>
+        <div className="box-small-purple">dwadwad</div>
       </div>
+
     </section>
   );
 };
