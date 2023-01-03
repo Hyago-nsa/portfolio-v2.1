@@ -43,6 +43,15 @@ const Projects = () => {
             <h2 className="projects-subtext">Alguma descricao</h2>
           </div>
         </div>
+
+        <div className="project-long">
+          <h1 className="projects-text">Algum texto</h1>
+          <h2 className="projects-subtext">Alguma descricao</h2>
+        </div>
+        <div className="project-long">
+          <h1 className="projects-text">Algum texto</h1>
+          <h2 className="projects-subtext">Alguma descricao</h2>
+        </div>
       </section>
     </Fragment>
   );

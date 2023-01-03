@@ -19,7 +19,6 @@ const App = () => (
           <div className="section">
             <div class="slide" data-anchor="slide1">
               <div className="container">
-                <div>C</div>
                 <div className="inside-container">
                   <MainPage />
                   <div className="button-container">
@@ -31,7 +30,7 @@ const App = () => (
                     </button>
                     <button
                       className="m-button"
-                      onClick={() => fullpageApi.moveSectionDown()}
+                      onClick={() => fullpageApi.moveSectionUp()}
                     >
                       Contact
                     </button>
@@ -54,7 +53,9 @@ const App = () => (
           </div>
           <div className="section">
             <div className="container">
-              <Contact />
+              <div className="inside-container">
+                <Contact />
+              </div>
             </div>
           </div>
         </ReactFullpage.Wrapper>
