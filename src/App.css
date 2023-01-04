@@ -47,12 +47,11 @@
 .m-button {
   letter-spacing: -1px;
   border: 1px solid #923fe6;
-  background-color: #923fe6;
-  color: white;
+  background-color: #040404;
+  color: #923fe6;
   font-size: 26px;
   width: 200px;
   padding: 22px;
-  border-radius: 3px;
   transition: ease 0.2s;
 }
 

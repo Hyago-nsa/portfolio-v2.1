@@ -47,7 +47,15 @@ const App = () => (
             </div>
             <div class="slide" data-anchor="slide3">
               <div className="container">
-                <About />
+                <div className="inside-container">
+                  <About />
+                  <button
+                    className="m-button"
+                    onClick={() => fullpageApi.moveSectionDown()}
+                  >
+                    Contact
+                  </button>
+                </div>
               </div>
             </div>
           </div>
