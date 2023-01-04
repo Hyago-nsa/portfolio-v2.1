@@ -5,3 +5,7 @@
 .fp-watermark {
   opacity: 0% !important;
 }
+
+textarea:focus, input:focus{
+  outline: none;
+}

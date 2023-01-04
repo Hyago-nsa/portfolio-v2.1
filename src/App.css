@@ -35,19 +35,19 @@
 }
 
 .fp-next:hover {
-  border-color: transparent transparent transparent #ff3a5e !important;
+  border-color: transparent transparent transparent #923fe6 !important;
   transition: ease-in-out 0.2s;
 }
 
 .fp-prev:hover {
-  border-color: transparent #ff3a5e transparent transparent !important;
+  border-color: transparent #923fe6 transparent transparent !important;
   transition: ease-in-out 0.2s;
 }
 
 .m-button {
   letter-spacing: -1px;
-  border: 1px solid #ff3a5e;
-  background-color: #ff3a5e;
+  border: 1px solid #923fe6;
+  background-color: #923fe6;
   color: white;
   font-size: 26px;
   width: 200px;
@@ -58,8 +58,8 @@
 
 .m-button:hover {
   box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.6);
-  border: 1px solid #ff3a5e;
+  border: 1px solid #923fe6;
   background-color: white;
-  color: #ff3a5e;
-  transition: ease 0.3s;
+  color: #923fe6;
+  transition: ease 0.2s;
 }
