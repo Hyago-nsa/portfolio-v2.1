@@ -72,6 +72,7 @@
   color: #923fe6;
   font-size: 30px;
   font-weight: 400;
+  transition: ease 0.2s;
 }
 
 .projects-subtext {
@@ -83,4 +84,5 @@
   color: #933fe68e;
   font-size: 24px;
   font-weight: 500;
+  transition: ease 0.2s;
 }

@@ -41,7 +41,7 @@ const Contact = () => {
           ></input>
           <input
             id="email"
-            placeholder="Email"
+            placeholder="E-mail"
             type="text"
             autoComplete="off"
           ></input>
@@ -49,8 +49,9 @@ const Contact = () => {
         <div className="box-small-purple">
           <button className="" type="text">
             <svg
-              width="300"
-              height="22"
+            class="bow-arrow"
+              width="72"
+              height="30"
               viewBox="0 0 72 22"
               xmlns="http://www.w3.org/2000/svg"
             >

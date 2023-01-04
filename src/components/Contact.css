@@ -77,7 +77,6 @@
 }
 
 .box-small-blue {
-
   border-radius: 0px 0px 0 0px;
   overflow: hidden;
   width: auto;
@@ -108,7 +107,6 @@
 }
 
 .box-small-purple {
-
   border-radius: 0 0 0 0px;
   width: auto;
   height: auto;
@@ -135,7 +133,7 @@
 }
 
 .box-long textarea {
-  padding-top: 20px;
+  padding-top: 70px;
   background-color: #040404;
   color: white;
   font-size: 36px;
@@ -146,7 +144,8 @@
 }
 
 .box-long textarea:focus {
-  padding-top: 20px;
+  padding-top: 70px;
+
   background-color: #923fe6;
 }
 
@@ -155,9 +154,13 @@
 }
 
 .bow-arrow {
+  transition: ease 0.2s;
+
   stroke: #fff;
 }
 
 .box-small-purple button:hover .bow-arrow {
-  stroke: #4831d4;
+  transition: ease 0.2s;
+  width: 100px;
+  padding-left: 31px;
 }
