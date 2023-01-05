@@ -45,9 +45,10 @@
   font-weight: 400;
 }
 
-.about-container span:hover, .about-main-text h1:hover{
-background-color: #923fe6;
-color:white;
+.about-container span:hover,
+.about-main-text h1:hover {
+  background-color: #923fe6;
+  color: white;
 }
 
 .about-container-info {
@@ -85,11 +86,10 @@ color:white;
   color: #923fe6;
 }
 
-.skill:hover{
+.skill:hover {
   background-color: #923fe6;
-  color:#040404;
+  color: #040404;
 }
-
 
 .glow-circle {
   margin-left: 500px;
@@ -104,4 +104,10 @@ color:white;
     /* inner right cyan broad */ 0 0 50px #fff,
     /* outer white */ -10px 0 80px #f0f,
     /* outer left magenta */ 10px 0 80px #0ff; /* outer right cyan */
+  transition: ease-in-out 2s;
+}
+
+.glow-circle:hover {
+  transform: rotate(720deg);
+  transition: ease-in-out 2s;
 }

@@ -51,7 +51,7 @@ const App = () => (
                   <About />
                   <button
                     className="m-button"
-                    onClick={() => fullpageApi.moveSectionDown()}
+                    onClick={() => fullpageApi.moveSectionUp()}
                   >
                     Contact
                   </button>
