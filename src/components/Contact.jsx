@@ -6,10 +6,10 @@ const Contact = () => {
     <section className="contact-container">
       <div className="contact-info">
         <div className="contact-info-text">
-          <p>Available for select freelance opportunities</p>
+          <p><span className="digital-text">Available</span> for select freelance opportunities</p>
         </div>
         <div className="contact-info-subtext">
-          <li>Have an exciting project you need help with?</li>
+          <li>Have an exciting <span className="digital-text">project</span> you need help with?</li>
           <li>Send me an email or contact me via instant message!</li>
         </div>
         <div className="contact-info-socialmedia">

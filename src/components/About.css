@@ -36,13 +36,13 @@
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 11rem;
+  grid-gap: 12rem;
   color: white;
   width: 100%;
 }
 
 .about-container span {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .about-container span:hover,
@@ -55,7 +55,7 @@
   margin-top: -60px;
   font-size: 34px;
   letter-spacing: -2px;
-  font-weight: 200;
+  font-weight: 300;
 }
 .about-container-info span {
   color: #923fe6;
@@ -64,15 +64,21 @@
 .about-container-skill h1 {
   margin-top: -60px;
   color: #923fe6;
-  margin-left: 20px;
+
   font-weight: 400;
   letter-spacing: -2px;
   font-size: 46px;
+  width: 150px;
+}
+
+.about-container-skill h1:hover {
+  background-color: #923fe6;
+  color: white;
 }
 
 .skills {
   display: flex;
-  grid-gap: 30px;
+  grid-gap: 24px;
   flex-wrap: wrap;
 }
 
@@ -93,7 +99,7 @@
 
 .glow-circle {
   margin-left: 500px;
-  margin-top: 80px;
+  margin-top: 100px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
