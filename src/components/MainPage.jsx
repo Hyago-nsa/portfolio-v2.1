@@ -7,8 +7,8 @@ const mainPage = () => {
       <div className="text-container">
         <div className="main-text">
           <p>
-            Helping companies build modern, high-quality
-            <span className="digital-text"> digital products</span>.
+            Helping companies build modern, high-quality {" "}
+            <span className="digital-text">digital products</span>.
           </p>
         </div>
 

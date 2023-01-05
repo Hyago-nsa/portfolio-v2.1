@@ -36,13 +36,18 @@
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10rem;
+  grid-gap: 11rem;
   color: white;
   width: 100%;
 }
 
 .about-container span {
   font-weight: 400;
+}
+
+.about-container span:hover, .about-main-text h1:hover{
+background-color: #923fe6;
+color:white;
 }
 
 .about-container-info {
@@ -66,7 +71,7 @@
 
 .skills {
   display: flex;
-  grid-gap: 24px;
+  grid-gap: 30px;
   flex-wrap: wrap;
 }
 

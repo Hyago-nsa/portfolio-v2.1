@@ -27,3 +27,8 @@
 .digital-text {
   color: #923fe6;
 }
+
+.digital-text:hover {
+  background-color: #923fe6;
+  color: white;
+}
