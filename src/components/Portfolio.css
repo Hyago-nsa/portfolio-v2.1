@@ -57,12 +57,33 @@
   transition: ease 0.2s;
 }
 
-/* .projects-image {
-  border-radius: 5px;
-  background-color: white;
+.projects-image-small,
+.projects-image-long,
+.projects-image-big {
   width: 100%;
-  height: 70%;
-} */
+  opacity: 85%;
+  transition: ease 0.1s;
+}
+
+.projects-image-small:hover,
+.projects-image-long:hover,
+.projects-image-big:hover {
+  opacity: 100%;
+  transition: ease 0.1s;
+  cursor: pointer;
+}
+
+.projects-image-small {
+  height: 378px;
+}
+
+.projects-image-long {
+  height: 378px;
+}
+
+.projects-image-big {
+  height: 776px;
+}
 
 .projects-text {
   grid-column: 1;

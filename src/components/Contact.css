@@ -36,6 +36,11 @@
   font-size: 40px;
 }
 
+.contact-info-socialmedia a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .contact-info-socialmedia li {
   list-style-type: none;
   letter-spacing: -2px;
@@ -139,6 +144,10 @@
 .bow-arrow {
   transition: ease 0.2s;
   stroke: #fff;
+}
+
+.box-small-purple button:hover{
+  cursor: pointer;
 }
 
 .box-small-purple button:hover .bow-arrow {
